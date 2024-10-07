@@ -8,7 +8,7 @@ public class Hello {
 
     @GetMapping("/hello")
     public HelloResponse sayHi() {
-        return new HelloResponse("Hell Spring Boot");
+        return new HelloResponse("Helloooo Spring Boot");
     }
 
 }
